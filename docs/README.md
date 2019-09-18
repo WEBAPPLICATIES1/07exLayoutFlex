@@ -32,7 +32,7 @@ Plaats de drie cards naast elkaar met behulp van flexbox. Je moet onderstaande s
 Denk na over hoe je de Card footers naar beneden kan duwen gebruikmakend van flexbox.
 Je moet het volgende resultaat bekomen:
 
-![Cards_step_2](images/ex02_screen02.png)
+![Cards_step_3](images/ex02_screen02.png)
  
 ## Exercise_03_ Salons_Waerboom
 
@@ -57,7 +57,7 @@ De bedoeling van deze oefening is de webpagina **Salons Waerboom** verder afwerk
 5. Footer:
    - De teksten in de footer zijn horizontaal gecentreerd.
    - De eerste paragraaf in de footer heeft een witte achtergrond en de tekstkleur is #a2a48e.
-   - Voorzien 10 pixels witruimte rond de teksten.
+   - Voorzie 10 pixels witruimte rond de teksten.
 
 ![Webpagina Salons Waerboom](images/ex03_screen01.png)
 
