@@ -1,5 +1,12 @@
-# 07exLayoutFlex
-## Exercise_01_Navigation_bars
+# Oefeningen hoofdstuk 7: Layout Flex
+
+Download of clone deze repository. Hiervoor klik je op de groene knop.
+
+Pak deze zip uit in de map waar je alle leermateriaal van Webapplicaties I plaatst.
+
+Ga nu naar Visual Studio Code en open deze map.
+
+## Oefening 1: NavigationBars
 Om een navigatiebalk te maken gebruiken we meestal een bulleted list, waarbij we de list items horizontaal afbeelden. 
 
 ```html
@@ -15,15 +22,15 @@ Om een navigatiebalk te maken gebruiken we meestal een bulleted list, waarbij we
 
 De list items zullen echter meestal niet de volledige breedte van de navigatiebalk innemen. Met flexbox beschik je over veel mogelijkheden om de overgebleven witruimte te verdelen.
 
-Open de map met de startbestanden in Visual Studio Code en pas het CSS-bestand aan zodat je de onderstaande webpagina bekomt.
+Open de map **NavigationBars** met de startbestanden in Visual Studio Code en pas het CSS-bestand aan zodat je de onderstaande webpagina bekomt.
 
 Je start best met het verwijderen van de bullets en alle padding en margin op de ul-elementen.
 
 ![Navigation bars with Flex](images/ex01_screen01.png)
  
-## Exercise_02_Cards
+## Oefening 2: Cards
 
-Open de map met de startbestanden in Visual Studio Code.
+Open de map **Cards** met de startbestanden in Visual Studio Code.
 
 Plaats de drie cards naast elkaar met behulp van flexbox. Je moet onderstaande schermafbeelding bekomen:
 
@@ -34,10 +41,10 @@ Je moet het volgende resultaat bekomen:
 
 ![Cards_step_3](images/ex02_screen02.png)
  
-## Exercise_03_ Salons_Waerboom
+## Oefening 3: Salons Waerboom
 
 De bedoeling van deze oefening is de webpagina **Salons Waerboom** verder afwerken en hierbij zoveel mogelijk gebruikmaken van flexbox.
-1. Open de map met de startbestanden in Visual Studio Code. In principe hoef je niets meer te wijzigen aan de HTML-code. Je moet enkel de CSS-code aanpassen.
+1. Open de map **SalonsWaerboom** met de startbestanden in Visual Studio Code. In principe hoef je niets meer te wijzigen aan de HTML-code. Je moet enkel de CSS-code aanpassen.
 2. Zorg ervoor dat de breedte van de `.content-wrapper` altijd 1050 pixels is en dat deze horizontaal gecentreerd is binnen de webpagina. Zie onderstaande schermafbeelding.
 3. Header:
    - Gebruik flexbox om het logo en de navigatiebalk naast elkaar te plaatsen en gebruik als verdeling 20% (logo) en 60% (navigatie). Centreer de items ook verticaal.
