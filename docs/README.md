@@ -68,6 +68,16 @@ De bedoeling van deze oefening is de webpagina **Salons Waerboom** verder afwerk
 
 ![Webpagina Salons Waerboom](images/ex03_screen01.png)
 
+## Oefening 4: Yoko
+
+In deze oefening moet je een aantal layouts uit de vorige hoofdstukken hermaken met flexbox.
+
+De startbestanden van deze oefening zijn de oplossingen van Yoko uit het vorige hoofdstuk. Enkel het h1-element is verplaatst naar het nav-element. 
+
+1. Gebruik flexbox in plaats van float om het h1-element en het a-element naast elkaar te plaatsen. Om dit mogelijk te maken is, zoals reeds hierboven vermeld, het h1-element in de HTML-code verplaatst naar het nav-element.
+2. Gebruik flexbox i.p.v. inline-block om de navigatielinks naast elkaar te plaatsen.
+3. Gebruik flexbox om 'figure' en '.description' naast elkaar te plaatsen. 
+
 
  
 
