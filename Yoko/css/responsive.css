@@ -41,24 +41,17 @@ header > picture {
 
 /* 
 tekst ipv afbeelding voor de laagste resolutie
-font vergroten - breedte 
-
-Opdracht 1: gebruik flex in plaats van float om het h1-element en het a-element
-naast elkaar te plaatsen.
+font vergroten - breedte en float want icoon voor uitklapmenu moet ernaast komen
 */
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 h1 {
     color: #de6581;
     padding: 0.5em;
     font-size: 1.5em;
     width: 75%;
-    flex: none;
+    float: left;
 }
+
 
 /*Uitklapmenu - icon */
 
@@ -75,15 +68,8 @@ nav ul {
 
 nav:hover ul {
     display: block;
-    flex: auto;
 }
 
-/* Opdracht 1: eventueel kunnen we er nog voor zorgen
-dat als er gehoverd wordt over het h1-element
-het menu niet verschijnt  */
-/* h1:hover ~ ul {
-    display:none;
-} */
 
 /* opmaak uitklapmenu */
 
@@ -251,14 +237,12 @@ Enkel de eigenschappen aangepast die wijzigen tov de algemen instellingen
     nav {
         margin-top: 2px;
     }
-
-    /* Opdracht 2: gebruik flex i.p.v. inline-block om de navigatielinks naast elkaar te plaatsen */
-    nav ul,
-    nav ul:hover { 
-        display: flex;
+    nav ul {
+        display: block;
         padding: .1em;
     }
     nav li {
+        display: inline-block;
         padding-left: .5em;
         margin-right: .5em;
         border-bottom: 0;
@@ -306,20 +290,17 @@ Enkel de eigenschappen aangepast die wijzigen tov de algemen instellingen
     aside {
         width: 30%;
     }
-
-    /* Opdracht 3: gebruik flex om 'figure' en '.description' naast elkaar te plaatsen. */
     figure {
+        float: left;
         max-width: 290px;
         max-height: 220px;
         margin-right: 1.5em;
     }
-
-
     article {
-        display:flex;
+        overflow: auto;
+        width: 100%;
     }
     .description {
         padding-top: 1.5em;
-        flex:1;
     }
 }
